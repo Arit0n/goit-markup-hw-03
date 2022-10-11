@@ -31,6 +31,8 @@ img {
   background: #ffffff;
   border: solid 1px;
   border-color: #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .container {
   width: 1200px;
@@ -40,8 +42,6 @@ img {
 }
 .header-container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   align-items: center;
   justify-content: space-between;
 }
@@ -100,7 +100,8 @@ img {
 }
 /* -----------Header------------  */
 /* -----------Main------------  */
-.main-container {
+
+.main-section {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -138,6 +139,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
+  padding: 6px 22px;
 }
 .button:hover {
   color: #ffffff;
@@ -152,8 +154,9 @@ h1 {
   flex-wrap: wrap;
   gap: 30px;
 }
-.portfolio-cards {
-  border-bottom: 1px solid #eeeeee;
+.project-box {
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .cards-header {
   font-weight: 700;
@@ -161,6 +164,7 @@ h1 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-bottom: 4px;
 }
 .project {
   font-size: 16px;
@@ -170,12 +174,11 @@ h1 {
 }
 /* -----------Main------------  */
 /* -----------Footer------------  */
-.footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 .footer-style {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   display: block;

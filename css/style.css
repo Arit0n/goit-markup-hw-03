@@ -31,6 +31,8 @@ img {
   background: #ffffff;
   border: solid 1px;
   border-color: #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .container {
   width: 1200px;
@@ -40,8 +42,6 @@ img {
 }
 .header-container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   align-items: center;
   justify-content: space-between;
 }
@@ -101,11 +101,10 @@ img {
 /* -----------Header------------  */
 .hero {
   background: #2f303a;
-}
-.hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .header-hero {
   font-weight: 900;
   font-size: 44px;
@@ -134,7 +133,7 @@ img {
   border-radius: 4px;
   padding: 10px 32px;
 }
-.conveience-container {
+.conveience-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -175,7 +174,7 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.training-container {
+.training-section {
   padding-bottom: 94px;
 }
 .training {
@@ -191,12 +190,11 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-header {
   font-weight: 700;
@@ -240,7 +238,7 @@ img {
 }
 /* -----------Main------------  */
 /* -----------Footer------------  */
-.footer-container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
