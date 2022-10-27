@@ -29,7 +29,7 @@ img {
 /* -----------Header------------  */
 .header-style {
   background: #ffffff;
-  border: solid 1px;
+  border-bottom: solid 1px;
   border-color: #ececec;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -104,7 +104,9 @@ img {
   gap: 30px;
 }
 .navigation-link:hover,
-.connection-link:hover {
+.connection-link:hover,
+.navigation-link:focus,
+.connection-link:focus {
   color: #2196f3;
 }
 
@@ -160,7 +162,8 @@ h1 {
   border: none;
   padding: 6px 22px;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   color: #ffffff;
   background: #2196f3;
   box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
@@ -169,17 +172,17 @@ h1 {
   color: #ffffff;
   background: #2196f3;
 }
-.portfolio-cards:hover,
-.portfolio-cards:focus {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
-    0 4px 4px 0 rgba(0, 0, 0, 0.06);
-}
+
 .cards-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-
+.link-portfolio:hover,
+.link-portfolio:focus {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0 4px 4px 0 rgba(0, 0, 0, 0.06);
+}
 .project-box {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
@@ -243,7 +246,8 @@ h1 {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.address a:hover {
+.address a:hover,
+.address a:focus {
   color: #2196f3;
 }
 .footer-list > .list-style:not(:last-child) {

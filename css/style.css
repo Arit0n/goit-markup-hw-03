@@ -29,7 +29,7 @@ img {
 /* -----------Header------------  */
 .header-style {
   background: #ffffff;
-  border: solid 1px;
+  border-bottom: solid 1px;
   border-color: #ececec;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -104,7 +104,9 @@ img {
   gap: 30px;
 }
 .navigation-link:hover,
-.connection-link:hover {
+.connection-link:hover,
+.navigation-link:focus,
+.connection-link:focus {
   color: #2196f3;
 }
 
@@ -310,7 +312,7 @@ img {
 .client-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -388,7 +390,8 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.address a:hover {
+.address a:hover,
+.address a:focus {
   color: #2196f3;
 }
 .footer-list > .list-style:not(:last-child) {
